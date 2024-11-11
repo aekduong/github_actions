@@ -18,7 +18,7 @@ jobs:
     runs-on: windows-latest
     needs: ["run-shell-command"]
     steps:
-      - name: current directory with powershell
+      - name: current directory with powershell  
         run: Get-Location
       - name: current directory with bash
         run: pwd
